@@ -69,6 +69,7 @@
 img.logo__image:hover {
   -webkit-transform: scale(1.08);
   transform: scale(1.08);
+
 }
 .menu-top {
   display: block;
