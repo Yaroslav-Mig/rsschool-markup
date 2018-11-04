@@ -76,7 +76,7 @@ img.logo__image:hover {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   font-family: "Lato", Verdana, Helvetica, sans-serif;
-  font-size: 0.9975rem;
+  font-size: 0.9960rem;
   font-weight: 500;
 }
 .menu-top li {
@@ -145,9 +145,9 @@ ul.menu-top > li:hover::after {
 .form__inner {
   display: flex;
   font-family: "Lato", Verdana, Helvetica, sans-serif;
-  font-size: 1.3750rem;
+  font-size: 1.3600rem;
   font-weight: bold;
-  line-height: 5.5;
+  line-height: 5.6;
 }
 .form__name {
   width: 50.8%;
@@ -180,6 +180,7 @@ ul.menu-top > li:hover::after {
   background-color: #2fac6c;
   padding-right: 2.2338rem;
   cursor: pointer;
+  outline: none;
 }
 li.form__name:hover {
   -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0 100%);
@@ -187,4 +188,156 @@ li.form__name:hover {
 }
 input.input-name:hover {
   letter-spacing: 5px;
+}
+
+/* domain */
+.domain,
+.domain-form,
+.domain-search {
+  width: 100%;
+  margin: 0 auto;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.domain_position {
+  padding: 5.5250rem 1rem;
+  outline: none;
+  -webkit-transition: outline 1s ease-in-out;
+  transition: outline 1s ease-in-out;
+}
+.dоmain__heading {
+  text-align: center;
+  font-family: "Lato", Verdana, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 800;
+  color:#383737;
+}
+.dоmain__text {
+  text-align: center;
+  margin: 1.6860rem 0 2.9860rem;
+  font-family: Montserrat, Verdana, Helvetica, sans-serif;
+  font-size: 1rem;
+  color: #a2a2a2;
+}
+.domain-search {
+ max-width:890px;
+ padding: 0.525rem 0 0.61rem; 
+ line-height: 1.95;
+ vertical-align: middle;
+ border: 1px solid #a2a2a2;
+}
+.domain-serch__input {
+  max-width: 82.11%;
+  width: 45.025rem;
+  border: none;
+  -webkit-appearance: none;
+  font-family: "Lato", Verdana, Helvetica, sans-serif;
+  font-size: 0.86rem;
+  font-weight: 600;
+  text-indent: 0.8125rem;
+}
+.domain-serch__prefix,
+.domain-serch__select {
+  display: inline-block;
+  font-family: "Lato", Verdana, Helvetica, sans-serif;
+  font-size: 0.86rem;
+  font-weight: normal;
+  text-align: center;
+  cursor: pointer;
+  color: #a2a2a2;
+}
+.domain-serch__prefix {
+  max-width:8%;
+  width: 4.4360rem;
+  border-right: 1px solid #a2a2a2;
+  
+}
+.domain-serch__select {
+  max-width:9.8%;
+  width: 5.3740rem;
+  padding-left: 1.125rem;
+  border: none;
+  outline: none;
+  border-left: 1px solid #a2a2a2;
+  line-height: 1.95;
+}
+input::-webkit-input-placeholder       {text-indent: 0.8125rem;   transition: text-indent 0.3s ease;}
+input::-moz-placeholder                {text-indent: 0.8125rem;   transition: text-indent 0.3s ease;}
+input:-moz-placeholder                 {text-indent: 0.8125rem;   transition: text-indent 0.3s ease;}
+input:-ms-input-placeholder            {text-indent: 0.8125rem;   transition: text-indent 0.3s ease;}
+input:focus::-webkit-input-placeholder {text-indent: calc(100% - 9rem); transition: text-indent 0.5s ease;}
+input:focus::-moz-placeholder          {text-indent: calc(100% - 9rem); transition: text-indent 0.5s ease;}
+input:focus:-moz-placeholder           {text-indent: calc(100% - 9rem); transition: text-indent 0.5s ease;}
+input:focus:-ms-input-placeholder      {text-indent: calc(100% - 9rem); transition: text-indent 0.5s ease;}
+
+fieldset.domain-search:hover {
+  outline: #058de7 solid 1px;
+}
+
+/* domain-price-table */
+.domain-table {
+  font-family: "Lato", Verdana, Helvetica, sans-serif;
+  font-size: 0.86rem;
+  font-weight: normal;
+  color: #a2a2a2;
+  border: 1px solid #a2a2a2;
+}
+.domain-table_position {
+  margin: 2.375rem auto 5.625rem;
+  max-width: 890px;
+  width: 100%;
+}
+.domain-table td {
+  position: relative;
+  width: 25%;
+  line-height: 7.1;
+  text-align: center; 
+}
+.domain-table td::after {
+  content: "";
+  position: absolute;
+  top: 14%;
+  left: 100%;
+  width: 1px;
+  height: 76.5%;
+  background-color: #a2a2a2;
+}
+.tr.table-2row > td:nth-child(n) {
+ position: relative;
+}
+tr.table-2row > td:nth-child(n)::after {
+  content: "";
+  position: absolute;
+  top: 7%;
+  left: 100%;
+  width: 1px;
+  height: 76.5%;
+  background-color: #a2a2a2;
+}
+.domain-table td::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 3.5%;
+  width: 93.4%;
+  height: 1px;
+  background-color: #a2a2a2;
+}
+.domain-table td:first-child::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 11.6%;
+  width: 85.6%;
+  height: 1px;
+  background-color: #a2a2a2;
+}
+.domain-table td:last-child::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  right: 11.6%;
+  width: 85.6%;;
+  height: 1px;
+  background-color: #a2a2a2;
 }
