@@ -69,14 +69,13 @@
 img.logo__image:hover {
   -webkit-transform: scale(1.08);
   transform: scale(1.08);
-
 }
 .menu-top {
   display: block;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   font-family: "Lato", Verdana, Helvetica, sans-serif;
-  font-size: 0.9960rem;
+  font-size: 0.996rem;
   font-weight: 500;
 }
 .menu-top li {
@@ -104,7 +103,7 @@ ul.menu-top > li::after {
   -webkit-transition: width 0.4s cubic-bezier(0.92, 0.23, 0.31, 1.12);
   transition: width 0.4s cubic-bezier(0.92, 0.23, 0.31, 1.12);
   -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  transform: translateX(-50%);
 }
 ul.menu-top > li:hover::after {
   width: 100%;
@@ -143,42 +142,49 @@ ul.menu-top > li:hover::after {
   box-sizing: border-box;
 }
 .form__inner {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   font-family: "Lato", Verdana, Helvetica, sans-serif;
-  font-size: 1.3600rem;
+  font-size: 1.36rem;
   font-weight: bold;
   line-height: 5.6;
 }
 .form__name {
   width: 50.8%;
-  -webkit-clip-path: polygon(0% 0%, 100% 0%, 95.8% 100%, 0 100%);
-  clip-path: polygon(0% 0%, 100% 0%, 95.8% 100%, 0 100%);
   z-index: 10;
-  transition: clip-path 1s ease, letter-spacing 1s ease;
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 96.4% 100%, 0 100%);
+  clip-path: polygon(0% 0%, 100% 0%, 96.4% 100%, 0 100%);
+  -webkit-transition: -webkit-clip-path 1s ease;
+  transition: -webkit-clip-path 1s ease;
+  transition: clip-path 1s ease;
+  transition: clip-path 1s ease, -webkit-clip-path 1s ease;
 }
 .form__register {
   position: absolute;
-  left:47.5%;
-  right:0;
+  left: 47.5%;
+  right: 0;
 }
 .input-name,
 .input-register {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   width: 100%;
-  color:#fff; 
+  color: #fff;
   text-transform: uppercase;
   text-align: center;
 }
 .input-name {
   background-color: #21424a;
-  padding-left: 4.4438rem;
+  padding-left: 24.1%;
   letter-spacing: 0;
+  -webkit-transition: letter-spacing 1s ease;
   transition: letter-spacing 1s ease;
 }
 .input-register {
   background-color: #2fac6c;
-  padding-right: 2.2338rem;
+  padding-right: 19%;
   cursor: pointer;
   outline: none;
 }
@@ -200,7 +206,7 @@ input.input-name:hover {
   box-sizing: border-box;
 }
 .domain_position {
-  padding: 5.5250rem 1rem;
+  padding: 5.525rem 1rem;
   outline: none;
   -webkit-transition: outline 1s ease-in-out;
   transition: outline 1s ease-in-out;
@@ -210,21 +216,21 @@ input.input-name:hover {
   font-family: "Lato", Verdana, Helvetica, sans-serif;
   font-size: 1.5rem;
   font-weight: 800;
-  color:#383737;
+  color: #383737;
 }
 .dоmain__text {
   text-align: center;
-  margin: 1.6860rem 0 2.9860rem;
+  margin: 1.686rem 0 2.986rem;
   font-family: Montserrat, Verdana, Helvetica, sans-serif;
   font-size: 1rem;
   color: #a2a2a2;
 }
 .domain-search {
- max-width:890px;
- padding: 0.525rem 0 0.61rem; 
- line-height: 1.95;
- vertical-align: middle;
- border: 1px solid #a2a2a2;
+  max-width: 890px;
+  padding: 0.525rem 0 0.61rem;
+  line-height: 1.95;
+  vertical-align: middle;
+  border: 1px solid #a2a2a2;
 }
 .domain-serch__input {
   max-width: 82.11%;
@@ -247,28 +253,59 @@ input.input-name:hover {
   color: #a2a2a2;
 }
 .domain-serch__prefix {
-  max-width:8%;
-  width: 4.4360rem;
+  max-width: 8%;
+  width: 4.436rem;
   border-right: 1px solid #a2a2a2;
-  
 }
 .domain-serch__select {
-  max-width:9.8%;
-  width: 5.3740rem;
+  max-width: 9.8%;
+  width: 5.374rem;
   padding-left: 1.125rem;
   border: none;
   outline: none;
   border-left: 1px solid #a2a2a2;
   line-height: 1.95;
 }
-input::-webkit-input-placeholder       {text-indent: 0.8125rem;   transition: text-indent 0.3s ease;}
-input::-moz-placeholder                {text-indent: 0.8125rem;   transition: text-indent 0.3s ease;}
-input:-moz-placeholder                 {text-indent: 0.8125rem;   transition: text-indent 0.3s ease;}
-input:-ms-input-placeholder            {text-indent: 0.8125rem;   transition: text-indent 0.3s ease;}
-input:focus::-webkit-input-placeholder {text-indent: calc(100% - 9rem); transition: text-indent 0.5s ease;}
-input:focus::-moz-placeholder          {text-indent: calc(100% - 9rem); transition: text-indent 0.5s ease;}
-input:focus:-moz-placeholder           {text-indent: calc(100% - 9rem); transition: text-indent 0.5s ease;}
-input:focus:-ms-input-placeholder      {text-indent: calc(100% - 9rem); transition: text-indent 0.5s ease;}
+input::-webkit-input-placeholder {
+  text-indent: 0.8125rem;
+  -webkit-transition: text-indent 0.3s ease;
+  transition: text-indent 0.3s ease;
+}
+input::-moz-placeholder {
+  text-indent: 0.8125rem;
+  -webkit-transition: text-indent 0.3s ease;
+  transition: text-indent 0.3s ease;
+}
+input:-moz-placeholder {
+  text-indent: 0.8125rem;
+  -webkit-transition: text-indent 0.3s ease;
+  transition: text-indent 0.3s ease;
+}
+input:-ms-input-placeholder {
+  text-indent: 0.8125rem;
+  -webkit-transition: text-indent 0.3s ease;
+  transition: text-indent 0.3s ease;
+}
+input:focus::-webkit-input-placeholder {
+  text-indent: calc(100% - 9rem);
+  -webkit-transition: text-indent 0.5s ease;
+  transition: text-indent 0.5s ease;
+}
+input:focus::-moz-placeholder {
+  text-indent: calc(100% - 9rem);
+  -webkit-transition: text-indent 0.5s ease;
+  transition: text-indent 0.5s ease;
+}
+input:focus:-moz-placeholder {
+  text-indent: calc(100% - 9rem);
+  -webkit-transition: text-indent 0.5s ease;
+  transition: text-indent 0.5s ease;
+}
+input:focus:-ms-input-placeholder {
+  text-indent: calc(100% - 9rem);
+  -webkit-transition: text-indent 0.5s ease;
+  transition: text-indent 0.5s ease;
+}
 
 fieldset.domain-search:hover {
   outline: #058de7 solid 1px;
@@ -291,7 +328,7 @@ fieldset.domain-search:hover {
   position: relative;
   width: 25%;
   line-height: 7.1;
-  text-align: center; 
+  text-align: center;
 }
 .domain-table td::after {
   content: "";
@@ -303,7 +340,7 @@ fieldset.domain-search:hover {
   background-color: #a2a2a2;
 }
 .tr.table-2row > td:nth-child(n) {
- position: relative;
+  position: relative;
 }
 tr.table-2row > td:nth-child(n)::after {
   content: "";
@@ -337,7 +374,7 @@ tr.table-2row > td:nth-child(n)::after {
   position: absolute;
   top: 100%;
   right: 11.6%;
-  width: 85.6%;;
+  width: 85.6%;
   height: 1px;
   background-color: #a2a2a2;
 }
