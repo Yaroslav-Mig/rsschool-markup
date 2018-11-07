@@ -15,418 +15,545 @@
     <link rel="stylesheet" href="styles/main.css">
 </head>
 
-<body class="page">
-    <div class="background background_top">
-        <div class="overlay">
+<body>
+    <main class="page">
+        <div class="background background_top">
+            <div class="overlay">
 
-            <div class="page__row">
-                <header class="header clearfix">
-                    <div class="header__logo">
-                        <a href="#" class="logo">
-                            <img class="logo__image" src="img/logo/logo-top.png" alt="Logo">
-                        </a>
-                    </div>
-                    <nav class="header__nav">
-                        <ul class="menu-top">
-                            <li>
-                                <a href="#">Home</a>
-                            </li>
-                            <li>
-                                <a href="#">Domain</a>
-                            </li>
-                            <li>
-                                <a href="#">Hosting</a>
-                            </li>
-                            <li>
-                                <a href="#">Clients</a>
-                            </li>
-                            <li>
-                                <a href="#">Blog</a>
-                            </li>
-                            <li>
-                                <a href="#">Support</a>
-                            </li>
-                        </ul>
-                    </nav>
-                </header>
-                <section class="greeting greeting_text">
-                    <h1 class="greeting__heading">HELLO!</h1>
-                    <p class="greeting__text">We love our work...</p>
-                    <p class="greeting__text greeting_fix">And We're taking it seriosly...</p>
-                </section>
+                <div class="page__row">
+                    <header class="header clearfix">
+                        <div class="header__logo">
+                            <a href="#" class="logo">
+                                <img class="logo__image" src="img/logo/logo-top.png" alt="Logo">
+                            </a>
+                        </div>
+                        <nav class="header__nav">
+                            <ul class="menu-top">
+                                <li>
+                                    <a href="#">Home</a>
+                                </li>
+                                <li>
+                                    <a href="#">Domain</a>
+                                </li>
+                                <li>
+                                    <a href="#">Hosting</a>
+                                </li>
+                                <li>
+                                    <a href="#">Clients</a>
+                                </li>
+                                <li>
+                                    <a href="#">Blog</a>
+                                </li>
+                                <li>
+                                    <a href="#">Support</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </header>
+                    <section class="greeting greeting_text">
+                        <h1 class="greeting__heading">HELLO!</h1>
+                        <p class="greeting__text">We love our work...</p>
+                        <p class="greeting__text greeting_fix">And We're taking it seriosly...</p>
+                    </section>
+                </div>
+
             </div>
-
         </div>
-    </div>
 
-    <form class="form" action="#" method="POST">
-        <ul class="form__inner">
-            <li class="form__name">
-                <input class="input-name" type="text" name="nickname" value="login" required>
-            </li>
-            <li class="form__register">
-                <input class="input-register" type="submit" value="register">
-            </li>
-        </ul>
-    </form>
-
-    <section class="domain domain_position">
-        <h3 class="dоmain__heading">Would you like to buy a new domain ?</h3>
-        <p class="dоmain__text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse auctor mauris acnulla
-            interdum,idmolestier
-        </p>
-
-        <form class="domain-form" action="#">
-            <fieldset class="domain-search">
-                <label class="domain-serch__prefix" for="prefix">www.</label>
-                <input class="domain-serch__input" type="search" id="prefix" placeholder="What do you want?" minlength="2"
-                    maxlength="30">
-                <select class="domain-serch__select" name="domain">
-                    <option value="com">.com</option>
-                    <option value="net">.net</option>
-                    <option value="org">.org</option>
-                </select>
-            </fieldset>
+        <form class="form" action="#" method="POST">
+            <ul class="form__inner">
+                <li class="form__name">
+                    <input class="input-name" type="text" name="nickname" value="login" required>
+                </li>
+                <li class="form__register">
+                    <input class="input-register" type="submit" value="register">
+                </li>
+            </ul>
         </form>
 
-        <table class="domain-table domain-table_position">
-            <tr>
-                <td>.COM</td>
-                <td>1 Year</td>
-                <td>$9.00 USD</td>
-                <td>Transfer Price No</td>
-            </tr>
-            <tr>
-                <td>.NET</td>
-                <td>1 Year</td>
-                <td>$9.00 USD</td>
-                <td>Transfer Price No</td>
-            </tr>
-        </table>
-    </section>
+        <section class="domain domain_position">
+            <h3 class="dоmain__heading">Would you like to buy a new domain ?</h3>
+            <p class="dоmain__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse auctor mauris acnulla
+                interdum,idmolestier
+            </p>
 
-    <section class="background-package">
-        <div class=" background background_middle">
-            <div class="package-overlay">
-                <div class="package-gradient">
-                    <div class="page__row"></div>
-                </div>
-            </div>
-        </div>
-    </section>
+            <form class="domain-form" action="#">
+                <fieldset class="domain-search">
+                    <label class="domain-serch__prefix" for="prefix">www.</label>
+                    <input class="domain-serch__input" type="search" id="prefix" placeholder="What do you want?"
+                        minlength="2" maxlength="30">
+                    <select class="domain-serch__select" name="domain">
+                        <option value="com">.com</option>
+                        <option value="net">.net</option>
+                        <option value="org">.org</option>
+                    </select>
+                </fieldset>
+            </form>
 
-    <div class="page__row">
-        <section class="package page__row-margin">
-
-            <div class="package__card basic-card">
-                <div class="circle-container">
-                    <svg class="circle" width="58" height="58">
-                        <image class="circle__icon" x="20" y="20" width="18" height="18" xlink:href="img/icons/fa-anchor.png"></image>
-                        <g transform="rotate(-90,50,50)">
-                            <circle class="circle__basic" r="24.5" cx="72" cy="29" fill="none">
-                            </circle>
-                        </g>
-                    </svg>
-                </div>
-                <table class="price-table">
-                    <caption>BASIC PACKAGE</caption>
-                    <tbody>
-                        <tr>
-                            <td>Disk space (GB)</td>
-                            <td>50</td>
-                        </tr>
-                        <tr>
-                            <td>Subdomains</td>
-                            <td>50</td>
-                        </tr>
-                        <tr>
-                            <td>Transfer (GB)</td>
-                            <td>50</td>
-                        </tr>
-                        <tr>
-                            <td>Data bases</td>
-                            <td>1</td>
-                        </tr>
-                        <tr>
-                            <td>Dashboards</td>
-                            <td>1</td>
-                        </tr>
-                        <tr>
-                            <td>Control Panel & FTP</td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>Free support</td>
-                            <td></td>
-                        </tr>
-                    </tbody>
-                </table>
-                <div class="cost">
-                    <div class="cost__number border-yellow">
-                        <p><sup>$</sup>15<span>/Mo</span></p>
-                    </div>
-                    <div class="cost__link">
-                        <a href="#">SELECT PLAN</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="package__card normal-card">
-                <div class="circle-container">
-                    <svg class="circle" width="58" height="58">
-                        <image class="circle__icon" x="19" y="19" width="16" height="16" xlink:href="img/icons/fa-star-half-empty.png"></image>
-                        <g transform="rotate(-90,50,50)">
-                            <circle class="circle__normal" r="24.5" cx="72" cy="29" fill="none"></circle>
-                        </g>
-                    </svg>
-                </div>
-                <table class="price-table">
-                    <caption>NORMAL PACKAGE</caption>
-                    <tbody>
-                        <tr>
-                            <td>Disk space (GB)</td>
-                            <td>100</td>
-                        </tr>
-                        <tr>
-                            <td>Subdomains</td>
-                            <td>100</td>
-                        </tr>
-                        <tr>
-                            <td>Transfer (GB)</td>
-                            <td>100</td>
-                        </tr>
-                        <tr>
-                            <td>Data bases</td>
-                            <td>2</td>
-                        </tr>
-                        <tr>
-                            <td>Dashboards</td>
-                            <td>2</td>
-                        </tr>
-                        <tr>
-                            <td>Control Panel & FTP</td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>Free support</td>
-                            <td></td>
-                        </tr>
-                    </tbody>
-                </table>
-                <div class="cost">
-                    <div class="cost__number border-grey">
-                        <p><sup>$</sup>30<span>/Mo</span></p>
-                    </div>
-                    <div class="cost__link">
-                        <a href="#">SELECT PLAN</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="package__card big-card">
-                <div class="circle-container">
-                    <svg class="circle" width="58" height="58">
-                        <image class="circle__icon" x="21" y="19" width="16" height="16" xlink:href="img/icons/fa-star.png"></image>
-                        <g transform="rotate(-90,50,50)">
-                            <circle class="circle__big" r="24.5" cx="72" cy="29" fill="none"></circle>
-                        </g>
-                    </svg>
-                </div>
-                <table class="price-table">
-                    <caption>BIG PACKAGE</caption>
-                    <tbody>
-                        <tr>
-                            <td>Disk space (GB)</td>
-                            <td>150</td>
-                        </tr>
-                        <tr>
-                            <td>Subdomains</td>
-                            <td>150</td>
-                        </tr>
-                        <tr>
-                            <td>Transfer (GB)</td>
-                            <td>150</td>
-                        </tr>
-                        <tr>
-                            <td>Data bases</td>
-                            <td>4</td>
-                        </tr>
-                        <tr>
-                            <td>Dashboards</td>
-                            <td>4</td>
-                        </tr>
-                        <tr>
-                            <td>Control Panel & FTP</td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>Free support</td>
-                            <td></td>
-                        </tr>
-                    </tbody>
-                </table>
-                <div class="cost">
-                    <div class="cost__number border-red">
-                        <p><sup>$</sup>40<span>/Mo</span></p>
-                    </div>
-                    <div class="cost__link">
-                        <a href="#">SELECT PLAN</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="package__card biggest-card">
-                <div class="circle-container">
-                    <svg class="circle" width="58" height="58">
-                        <image class="circle__icon" x="21" y="18" width="17" height="20" xlink:href="img/icons/fa-dimond.png"></image>
-                        <g transform="rotate(-90,50,50)">
-                            <circle class="circle__biggest" r="24.5" cx="72" cy="29" fill="none"></circle>
-                        </g>
-                    </svg>
-                </div>
-                <table class="price-table">
-                    <caption>BIGGEST PACKAGE</caption>
-                    <tbody>
-                        <tr>
-                            <td>Disk space (GB)</td>
-                            <td>250</td>
-                        </tr>
-                        <tr>
-                            <td>Subdomains</td>
-                            <td>250</td>
-                        </tr>
-                        <tr>
-                            <td>Transfer (GB)</td>
-                            <td>250</td>
-                        </tr>
-                        <tr>
-                            <td>Data bases</td>
-                            <td>6</td>
-                        </tr>
-                        <tr>
-                            <td>Dashboards</td>
-                            <td>6</td>
-                        </tr>
-                        <tr>
-                            <td>Control Panel & FTP</td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>Free support</td>
-                            <td></td>
-                        </tr>
-                    </tbody>
-                </table>
-                <div class="cost">
-                    <div class="cost__number border-green ">
-                        <p><sup>$</sup>70<span>/Mo</span></p>
-                    </div>
-                    <div class="cost__link">
-                        <a href="#">SELECT PLAN</a>
-                    </div>
-                </div>
-            </div>
-
+            <table class="domain-table domain-table_position">
+                <tr>
+                    <td>.COM</td>
+                    <td>1 Year</td>
+                    <td>$9.00 USD</td>
+                    <td>Transfer Price No</td>
+                </tr>
+                <tr>
+                    <td>.NET</td>
+                    <td>1 Year</td>
+                    <td>$9.00 USD</td>
+                    <td>Transfer Price No</td>
+                </tr>
+            </table>
         </section>
-    </div>
 
-    <section class="page__row page__row-fix">
-        <div class="about-container">
-            <div class="about-comments">
-                <h2 class="about-caption"><span>About</span> Us</h2>
-                <p class="about-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Praesent feugiat eget diam sit amet molestie.Curabitur.
-                    ut ipsum bibendum tortor lacinia fermentum nec joeıa.
-                    Mauris at augue libero. Fusce posuere, sapien nec poır.
-                    Uaee augsuada sed mauris in tincidunt...</p>
-            </div>
-            <div class="about-us">
-                <div class="worker">
-                    <a href="#" target="_blank">
-                        <div class="worker__img worker-photo1"></div>
-                    </a>
-                    <h4 class="worker__name">Jonny Doe</h4>
-                    <P class="worker__post">Designer</P>
-                    <div class="social-icons">
-                        <a href="https://twitter.com" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        <a href="https://www.facebook.com" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        <a href="https://habr.com" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>
-                    </div>
-                </div>
-                <div class="worker">
-                    <a href="#" target="_blank">
-                        <div class="worker__img worker-photo2"></div>
-                    </a>
-                    <h4 class="worker__name">John Doe</h4>
-                    <P class="worker__post">Designer</P>
-                    <div class="social-icons">
-                        <a href="https://twitter.com" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        <a href="https://www.facebook.com" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        <a href="https://habr.com" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>
-                    </div>
-                </div>
-                <div class="worker">
-                    <a href="#" target="_blank">
-                        <div class="worker__img worker-photo3"></div>
-                    </a>
-                    <h4 class="worker__name">Johnathan Doe</h4>
-                    <P class="worker__post">Designer</P>
-                    <div class="social-icons">
-                        <a href="https://twitter.com" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        <a href="https://www.facebook.com" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        <a href="https://habr.com" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>
+        <section class="background-package">
+            <div class=" background background_middle">
+                <div class="package-overlay">
+                    <div class="package-gradient">
+                        <div class="page__row"></div>
                     </div>
                 </div>
             </div>
+        </section>
 
+        <div class="page__row">
+            <section class="package page__row-margin" id="package">
+
+                <div class="package__card basic-card">
+                    <div class="circle-container">
+                        <svg class="circle" width="58" height="58">
+                            <image class="circle__icon" x="20" y="20" width="18" height="18" xlink:href="img/icons/fa-anchor.png"></image>
+                            <g transform="rotate(-90,50,50)">
+                                <circle class="circle__basic" r="24.5" cx="72" cy="29" fill="none">
+                                </circle>
+                            </g>
+                        </svg>
+                    </div>
+                    <table class="price-table">
+                        <caption>BASIC PACKAGE</caption>
+                        <tbody>
+                            <tr>
+                                <td>Disk space (GB)</td>
+                                <td>50</td>
+                            </tr>
+                            <tr>
+                                <td>Subdomains</td>
+                                <td>50</td>
+                            </tr>
+                            <tr>
+                                <td>Transfer (GB)</td>
+                                <td>50</td>
+                            </tr>
+                            <tr>
+                                <td>Data bases</td>
+                                <td>1</td>
+                            </tr>
+                            <tr>
+                                <td>Dashboards</td>
+                                <td>1</td>
+                            </tr>
+                            <tr>
+                                <td>Control Panel & FTP</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Free support</td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="cost">
+                        <div class="cost__number border-yellow">
+                            <p><sup>$</sup>15<span>/Mo</span></p>
+                        </div>
+                        <div class="cost__link">
+                            <a href="#">SELECT PLAN</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="package__card normal-card">
+                    <div class="circle-container">
+                        <svg class="circle" width="58" height="58">
+                            <image class="circle__icon" x="19" y="19" width="16" height="16" xlink:href="img/icons/fa-star-half-empty.png"></image>
+                            <g transform="rotate(-90,50,50)">
+                                <circle class="circle__normal" r="24.5" cx="72" cy="29" fill="none"></circle>
+                            </g>
+                        </svg>
+                    </div>
+                    <table class="price-table">
+                        <caption>NORMAL PACKAGE</caption>
+                        <tbody>
+                            <tr>
+                                <td>Disk space (GB)</td>
+                                <td>100</td>
+                            </tr>
+                            <tr>
+                                <td>Subdomains</td>
+                                <td>100</td>
+                            </tr>
+                            <tr>
+                                <td>Transfer (GB)</td>
+                                <td>100</td>
+                            </tr>
+                            <tr>
+                                <td>Data bases</td>
+                                <td>2</td>
+                            </tr>
+                            <tr>
+                                <td>Dashboards</td>
+                                <td>2</td>
+                            </tr>
+                            <tr>
+                                <td>Control Panel & FTP</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Free support</td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="cost">
+                        <div class="cost__number border-grey">
+                            <p><sup>$</sup>30<span>/Mo</span></p>
+                        </div>
+                        <div class="cost__link">
+                            <a href="#">SELECT PLAN</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="package__card big-card">
+                    <div class="circle-container">
+                        <svg class="circle" width="58" height="58">
+                            <image class="circle__icon" x="21" y="19" width="16" height="16" xlink:href="img/icons/fa-star.png"></image>
+                            <g transform="rotate(-90,50,50)">
+                                <circle class="circle__big" r="24.5" cx="72" cy="29" fill="none"></circle>
+                            </g>
+                        </svg>
+                    </div>
+                    <table class="price-table">
+                        <caption>BIG PACKAGE</caption>
+                        <tbody>
+                            <tr>
+                                <td>Disk space (GB)</td>
+                                <td>150</td>
+                            </tr>
+                            <tr>
+                                <td>Subdomains</td>
+                                <td>150</td>
+                            </tr>
+                            <tr>
+                                <td>Transfer (GB)</td>
+                                <td>150</td>
+                            </tr>
+                            <tr>
+                                <td>Data bases</td>
+                                <td>4</td>
+                            </tr>
+                            <tr>
+                                <td>Dashboards</td>
+                                <td>4</td>
+                            </tr>
+                            <tr>
+                                <td>Control Panel & FTP</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Free support</td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="cost">
+                        <div class="cost__number border-red">
+                            <p><sup>$</sup>40<span>/Mo</span></p>
+                        </div>
+                        <div class="cost__link">
+                            <a href="#">SELECT PLAN</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="package__card biggest-card">
+                    <div class="circle-container">
+                        <svg class="circle" width="58" height="58">
+                            <image class="circle__icon" x="21" y="18" width="17" height="20" xlink:href="img/icons/fa-dimond.png"></image>
+                            <g transform="rotate(-90,50,50)">
+                                <circle class="circle__biggest" r="24.5" cx="72" cy="29" fill="none"></circle>
+                            </g>
+                        </svg>
+                    </div>
+                    <table class="price-table">
+                        <caption>BIGGEST PACKAGE</caption>
+                        <tbody>
+                            <tr>
+                                <td>Disk space (GB)</td>
+                                <td>250</td>
+                            </tr>
+                            <tr>
+                                <td>Subdomains</td>
+                                <td>250</td>
+                            </tr>
+                            <tr>
+                                <td>Transfer (GB)</td>
+                                <td>250</td>
+                            </tr>
+                            <tr>
+                                <td>Data bases</td>
+                                <td>6</td>
+                            </tr>
+                            <tr>
+                                <td>Dashboards</td>
+                                <td>6</td>
+                            </tr>
+                            <tr>
+                                <td>Control Panel & FTP</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Free support</td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="cost">
+                        <div class="cost__number border-green ">
+                            <p><sup>$</sup>70<span>/Mo</span></p>
+                        </div>
+                        <div class="cost__link">
+                            <a href="#">SELECT PLAN</a>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
         </div>
-    </section>
 
-    <section class="background background_bottom">
-        <div class="slider-overlay">
-            <div class="package-gradient">
-                <div class="page__row page__row-fix2">
-                    <div class="slider">
-                        <input type="radio" name="slide" id="slide1" checked>
-                        <input type="radio" name="slide" id="slide2">
-                        <input type="radio" name="slide" id="slide3">
-                        <div class="slides">
-                            <div class="slides__page" id="one">
-                                <h4 class="slides__name">Jonny Doe</h4>
-                                <p class="slides__text">
-                                    “Suspendisse tempor turpis odio, sit amet cursus leo consequat non. Maecenas
-                                    lacinia faucibus enimqui interdum dolor pulvinar vitae.”
-                                </p>
+        <section class="page__row page__row-fix">
+            <div class="about-container" id="about-Us">
+                <div class="about-comments">
+                    <h2 class="about-caption"><span>About</span> Us</h2>
+                    <p class="about-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Praesent feugiat eget diam sit amet molestie.Curabitur.
+                        ut ipsum bibendum tortor lacinia fermentum nec joeıa.
+                        Mauris at augue libero. Fusce posuere, sapien nec poır.
+                        Uaee augsuada sed mauris in tincidunt...</p>
+                </div>
+                <div class="about-us">
+                    <div class="worker">
+                        <a href="#" target="_blank">
+                            <div class="worker__img worker-photo1"></div>
+                        </a>
+                        <h4 class="worker__name">Jonny Doe</h4>
+                        <P class="worker__post">Designer</P>
+                        <div class="social-icons">
+                            <a href="https://twitter.com" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a href="https://www.facebook.com" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            <a href="https://habr.com" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                    <div class="worker">
+                        <a href="#" target="_blank">
+                            <div class="worker__img worker-photo2"></div>
+                        </a>
+                        <h4 class="worker__name">John Doe</h4>
+                        <P class="worker__post">Designer</P>
+                        <div class="social-icons">
+                            <a href="https://twitter.com" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a href="https://www.facebook.com" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            <a href="https://habr.com" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                    <div class="worker">
+                        <a href="#" target="_blank">
+                            <div class="worker__img worker-photo3"></div>
+                        </a>
+                        <h4 class="worker__name">Johnathan Doe</h4>
+                        <P class="worker__post">Designer</P>
+                        <div class="social-icons">
+                            <a href="https://twitter.com" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a href="https://www.facebook.com" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            <a href="https://habr.com" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="background background_bottom">
+            <div class="slider-overlay">
+                <div class="package-gradient">
+
+                    <div class="page__row page__row-fix2">
+                        <div class="slider">
+                            <input type="radio" name="slide" id="slide1" checked>
+                            <input type="radio" name="slide" id="slide2">
+                            <input type="radio" name="slide" id="slide3">
+                            <div class="slides">
+                                <div class="slides__page" id="one">
+                                    <h4 class="slides__name">Jonny Doe</h4>
+                                    <p class="slides__text">
+                                        “Suspendisse tempor turpis odio, sit amet cursus leo consequat non. Maecenas
+                                        lacinia faucibus enimqui interdum dolor pulvinar vitae.”
+                                    </p>
+                                </div>
+                                <div class="slides__page" id="two">
+                                    <h4 class="slides__name">John Doe</h4>
+                                    <p class="slides__text">
+                                        “Duis sed odio sit amet nibh vulputate cursus a
+                                        sit amet mauris. Morbi accumsan ipsum velit. Sed nunc diam, ultrices a
+                                        vestibulum
+                                        in, egestas eu urna.”
+                                    </p>
+                                </div>
+                                <div class="slides__page" id="three">
+                                    <h4 class="slides__name">Johnathan Doe</h4>
+                                    <p class="slides__text">
+                                        “Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit. Morbi eleifend mauris in
+                                        accumsan ultrices.“
+                                    </p>
+                                </div>
                             </div>
-                            <div class="slides__page" id="two">
-                                <h4 class="slides__name">John Doe</h4>
-                                <p class="slides__text">
-                                    “Duis sed odio sit amet nibh vulputate cursus a
-                                    sit amet mauris. Morbi accumsan ipsum velit. Sed nunc diam, ultrices a vestibulum
-                                    in, egestas eu urna.”
-                                </p>
+                            <div class="slider-active">
+                                <label for="slide1"></label>
+                                <label for="slide2"></label>
+                                <label for="slide3"></label>
                             </div>
-                            <div class="slides__page" id="three">
-                                <h4 class="slides__name">Johnathan Doe</h4>
-                                <p class="slides__text">
-                                    “Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit. Morbi eleifend mauris in
-                                    accumsan ultrices.“
-                                </p>
-                            </div>
-                        </div> <!-- slides -->
-                        <div class="slider-active">
-                            <label for="slide1"></label>
-                            <label for="slide2"></label>
-                            <label for="slide3"></label>
-                        </div> <!-- Dots for slider -->
-                    </div> <!-- slider -->
+                        </div>
+                    </div>
+
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
+        <section class="page__row">
+            <div class="services-container">
+                <div class="services-items">
+                    <a href="#">
+                        <div class="services-circle services-circle_yellow">
+                            <i class="fa fa-bolt"></i>
+                        </div>
+                        <h3 class="services-name">Fast Servers</h3>
+                        <p class="services-text">Nulla dapibus neque augue, quis tincidunt tortor aliquam vitae.</p>
+                    </a>
+                </div>
+                <div class="services-items">
+                    <a href="#">
+                        <div class="services-circle services-circle_blue">
+                            <i class="fa fa-cloud"></i>
+                        </div>
+                        <h3 class="services-name">Cloud Servers</h3>
+                        <p class="services-text">Nulla dapibus neque augue, quis tincidunt tortor aliquam vitae.</p>
+                    </a>
+                </div>
+                <div class="services-items">
+                    <a href="#">
+                        <div class="services-circle services-circle_gray">
+                            <i class="fa fa-arrows-alt"></i>
+                        </div>
+                        <h3 class="services-name">Domain Transfer</h3>
+                        <p class="services-text">Nulla dapibus neque augue, quis tincidunt tortor aliquam vitae.</p>
+                    </a>
+                </div>
+                <div class="services-items">
+                    <a href="#">
+                        <div class="services-circle services-circle_orange">
+                            <i class="fa fa-comments"></i>
+                        </div>
+                        <h3 class="services-name">Live Support</h3>
+                        <p class="services-text">Nulla dapibus neque augue, quis tincidunt tortor aliquam vitae.</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="page__row">
+        <section>
+            <div class="header__logo">
+                <a href="#" class="logo">
+                    <img class="logo__image" src="img/logo/logo-bottom.png" alt="Logo">
+                </a>
+            </div>
+            <nav class="menu">
+                <ul>
+                    <li>
+                        <a href="#">HOME</a>
+                    </li>
+                    <li>
+                        <a href="#about-Us">ABOUT US</a>
+                    </li>
+                    <li>
+                        <a href="#">BLOG</a>
+                    </li>
+                    <li>
+                        <a href="#">POLICY</a>
+                    </li>
+                    <li>
+                        <a href="#contact">CONTACT</a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+        <section class="footer-container">
+            <div class="footer-about-us">
+                <p>
+                    Lorem ipsum dolor sit amet, consecteteeseurı
+                    adipiscing elit. Donec mollis commodoeesene
+                    que, non commodo risus volutpat vel.
+                </p>
+                <p>Design by <strong>Mert Can Eyriyer.</strong></p>
+            </div>
+            <div class="footer-navigation">
+                <ul>
+                    <li>
+                        <a href="#"><i class="fa fa-angle-right"></i>Support</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-angle-right"></i>Account</a>
+                    </li>
+                    <li>
+                        <a href="#package"><i class="fa fa-angle-right"></i>Product Catalog</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-angle-right"></i>Shortcodes</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-navigation">
+                <ul>
+                    <li>
+                        <a href="#"><i class="fa fa-angle-right"></i>Site Map</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-angle-right"></i>Whois Search</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-angle-right"></i>Web Mail</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-angle-right"></i>Find Domain</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-contact" id="contact">
+                <address>
+                    <a href="tel:0000-0000-0000"><i class="fa fa-phone"></i>0000-0000-0000</a>
+                </address>
+                <address>
+                    <a href="mailto:informationteam@ghosthost.com"><i class="fa fa-envelope"></i>informationteam@ghosthost.com</a>
+                </address>
+                <address>
+                    Lorem Ipsum Street, Lorem Avenue, Lorem Ipsum
+                </address>
+            </div>
+        </section>
+    </footer>
 </body>
 
 </html>
