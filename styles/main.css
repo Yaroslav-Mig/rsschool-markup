@@ -96,7 +96,7 @@ ul.menu-top > li::after {
   position: absolute;
   left: 50%;
   bottom: 0;
-  margin-bottom: -37px;
+  margin-bottom: -2.187rem;
   width: 0%;
   height: 1px;
   background: #fff;
